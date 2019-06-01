@@ -85,7 +85,7 @@ color=$(convert "$image" -gravity center -crop 100x100+0+0 +repage -colorspace h
 
 if [[ $color -gt $value ]]; then #white background image and black text
     bw="black"
-    icon="/usr/share/i3lock-fancy/icons/pink.png"
+    icon="/usr/share/i3lock-fancy/icons/wish_you_were_here.png"
     param=("--insidecolor=0000001c" "--ringcolor=0000003e" \
         "--linecolor=00000000" "--keyhlcolor=ffffff80" "--ringvercolor=ffffff00" \
         "--separatorcolor=22222260" "--insidevercolor=ffffff1c" \
